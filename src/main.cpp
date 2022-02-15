@@ -5,16 +5,11 @@
 #include <wifiConnect.h>
 #include <lights.h>
 
-#define ssid "TinaTeens"
-#define passwd "Fenja2010"
+#define ssid "SSID"
+#define passwd "PASSWORD"
 
 void setup() {
   Serial.begin(9600);
-  while (!Serial) {
-    
-   ;
-    
-  }
 
   connect(ssid, passwd);
 
